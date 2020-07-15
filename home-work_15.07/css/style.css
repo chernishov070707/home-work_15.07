@@ -1,0 +1,172 @@
+body {
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'Montserrat', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+.main-manu {
+    background: ghostwhite;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 110px;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 32px;
+    margin-left: 80px;
+}
+
+.nav-section {
+    width: 600px;
+    vertical-align: middle;
+    padding-top: 25px;
+}
+
+.nav-section ul li,
+.network ul li {
+    display: inline-block;
+    list-style: none;
+    width: 15%;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 12px;
+    padding: 5px;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+a:hover {
+    color: #000000;
+    font-weight: 800;
+}
+
+a {
+    color: rgb(138, 138, 138);
+    text-decoration: none;
+}
+
+header {
+    height: 1000px;
+    width: 100%;
+    /*background: url(https://static1.glucode.com/assets/hero-img-480-f1058cc44850f49b0b608313a5160c94609323e75e48b50efd04ea6e2e11a151.jpg) !important;*/
+    background-image: url(https://static3.glucode.com/assets/hero-img-1024-e607bba599997e7fe358a34a60a27ada394fa9fd99ebe1bdd14c261f86e25cd5.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow: hidden;
+    display: block;
+}
+
+.main-caption {
+    height: 1000px;
+    width: 70%;
+}
+
+.main-caption p {
+    margin-top: 400px;
+    margin-left: 50px;
+    color: white;
+    font-size: 75px;
+    word-wrap: normal;
+}
+
+
+/*main*/
+
+.upper-header {
+    height: 450px;
+}
+
+.target-question {
+    padding-top: 100px;
+    padding-left: 50px;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.target-answer {
+    padding-left: 50px;
+    font-size: 45px;
+    font-weight: 70;
+    width: 80%;
+    color: rgb(138, 138, 138);
+}
+
+.group {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 600px;
+}
+
+.group-item {
+    width: calc(100%/3);
+}
+
+.group-item-4 {
+    width: 22%;
+}
+
+.group-item-text {
+    color: rgb(138, 138, 138);
+    padding: 0px 50px;
+}
+
+.button-section {
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+button {
+    margin: 0 auto;
+    padding: 15px 50px;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 5%;
+}
+
+.future {
+    background-image: url(https://static3.glucode.com/assets/featured-projects-480-d80cc6b2ac3b52a8f8e96e42077f40164ace4e689532be52c3946c9c7d0d2a1d.png), linear-gradient(290deg, #ffde58, #f4590b);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 350px !important;
+    position: relative;
+    color: white;
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.featured-projects-second {
+    width: 50%;
+}
+
+#white-button {
+    background: white;
+    color: orange;
+    border: none;
+}
+
+footer {
+    border-top: #c4c4c4 1px solid;
+    padding: 30px;
+    margin-top: 100px;
+    padding-left: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.network {
+    display: inline;
+    width: 20%;
+}
+
+.network li img {
+    width: 20px;
+    height: 20px;
+}
